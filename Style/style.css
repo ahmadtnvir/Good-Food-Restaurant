@@ -1,7 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Work Sans", sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+  color: #FFFFFF;
+}
+
+.banner{
+    background-image:linear-gradient(180deg, #10101000, #101010FF) , url("../assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 90%;
+    margin: 30px auto;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.banner_content{
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    text-align: center;
+    
+}
+
+#sub_heading{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.banner_content > h1{
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.banner_content > p{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+button{
+    background: #52C303;
+    padding: 21px 32px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
 }
